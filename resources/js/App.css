@@ -1,0 +1,205 @@
+@import "~antd/dist/antd.css";
+:root {
+    --bg-primary: #ffa8a7;
+    --bg-primary-hover: #db8281;
+    --bg-secondary: #94d0cc;
+}
+body {
+    background-color: #f6fafb;
+}
+.ant-layout {
+    background: #f6fafb;
+    overflow: hidden;
+}
+.ant-layout-header .ant-menu {
+    justify-content: end;
+    align-items: center;
+}
+.ant-menu-horizontal {
+    border-bottom: 0;
+}
+.ant-menu-horizontal .ant-menu-item:nth-last-child(2)::after {
+    border-bottom: 0;
+}
+.ant-menu-horizontal .ant-menu-item:nth-last-child(2):hover::after {
+    border-bottom: 0;
+}
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item:hover::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu:hover::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-active::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-active::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-open::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-open::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-selected::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-selected::after {
+    border-bottom: 2px solid #ffa8a7;
+}
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item:hover,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu:hover,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-active,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-active,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-open,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-open,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-selected,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-selected {
+    color: #ffa8a7;
+}
+.logo {
+    float: left;
+    width: 120px;
+    height: 31px;
+    margin: 16px 24px 16px 0;
+    background: rgba(128, 124, 124, 0.3);
+}
+.ant-layout-header {
+    background: transparent;
+    z-index: 10;
+}
+.ant-menu {
+    background: transparent;
+}
+.site-layout-content {
+    min-height: 280px;
+    padding: 24px;
+    background: #f6fafb;
+}
+.ant-row-rtl #components-layout-demo-top .logo {
+    float: right;
+    margin: 16px 0 16px 24px;
+}
+.ant-btn-primary {
+    border-color: var(--bg-primary);
+    background-color: var(--bg-primary);
+}
+.ant-btn-primary:hover,
+.ant-btn-primary:focus {
+    border-color: var(--bg-primary-hover);
+    background-color: var(--bg-primary-hover);
+}
+.hero {
+    position: relative;
+}
+.hero-content h1 {
+    font-size: 60px;
+    font-weight: 800;
+    color: #000000;
+    margin-bottom: 5px;
+}
+.hero-content .sml {
+    color: #ffa8a7;
+}
+.sh1 {
+    width: 420px;
+    height: 1000px;
+    background: #94d0cc;
+    border-radius: 246.122px;
+    transform: matrix(0.62, 0.8, -0.76, 0.63, 0, 0);
+    position: absolute;
+    right: -80px;
+    top: -495px;
+    z-index: 1;
+}
+.sh2 {
+    width: 420px;
+    height: 1000px;
+    background: #ffa8a7;
+    border-radius: 246.122px;
+    transform: matrix(0.62, 0.8, -0.76, 0.63, 0, 0);
+    position: absolute;
+    right: -320px;
+    top: -600px;
+}
+.section {
+    padding-top: 100px;
+}
+.abtfoundation {
+    position: relative;
+}
+.abtf1 {
+    width: 420px;
+    height: 1000px;
+    position: absolute;
+    background: #94d0cc;
+    /* background-image: url("/images/abtimg.png"), #94d0cc; */
+    /* background-size: cover; */
+    /* background-position: center; */
+    border: 3px solid rgba(62, 99, 96, 0.56);
+    box-sizing: border-box;
+    border-radius: 246.122px;
+    transform: matrix(0.62, 0.8, -0.76, 0.63, 0, 0);
+    left: -350px;
+    top: -50px;
+    z-index: 1;
+}
+.abtf2 {
+    width: 420px;
+    height: 1000px;
+    position: absolute;
+    background-color: #ffa8a7;
+    box-sizing: border-box;
+    border-radius: 246.122px;
+    transform: matrix(0.62, 0.8, -0.76, 0.63, 0, 0);
+    left: -400px;
+}
+.stsSecCnt {
+    background: #fff;
+    z-index: 10;
+    position: relative;
+    margin-top: 5rem;
+    padding: 2rem;
+}
+.stscnt {
+    display: flex;
+    border: 1px solid rgba(255, 168, 167, 0.22);
+    padding: 1.5rem;
+    position: relative;
+    align-items: center;
+}
+.stsimg {
+    width: 60px;
+    height: 60px;
+    background: #ffffff;
+    border: 1px solid #ffecec;
+    border-radius: 50%;
+    display: flex;
+    position: absolute;
+    left: -30px;
+    align-items: center;
+    justify-content: center;
+}
+.stsimg img {
+    width: 40px;
+    height: 40px;
+}
+.stscntnt {
+    margin-left: 1rem;
+}
+.stscntnt h1 {
+    font-size: 20px;
+    font-weight: 700;
+}
+.glcrdCnt .content,
+.glcrCntFt {
+    background: #ffffff;
+    padding: 1rem;
+    transition: 500ms ease-in-out;
+}
+.glcrdCnt:hover {
+    box-shadow: 0px 5px 5px rgba(26, 17, 13, 0.05);
+    transition: 500ms ease-in;
+}
+.glcrdCnt .content h1 {
+    font-size: 20px;
+}
+.glcnt div {
+    padding: 0 10px;
+}
+.glcnt span {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+    color: rgb(155, 170, 184);
+}
+.ant-progress-text {
+    margin-left: 2px;
+}
