@@ -11,7 +11,7 @@ const SiteLayout = ({ children }) => {
                     <Nav />
                 </Header>
                 <Content className="site-layout-content">{children}</Content>
-                <Footer style={{ textAlign: "center" }}>
+                <Footer style={{ textAlign: "center", marginTop: "2rem" }}>
                     BitCharity ©2021 Created by BitCharity
                 </Footer>
             </Layout>

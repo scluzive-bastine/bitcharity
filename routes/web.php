@@ -18,3 +18,16 @@ use Inertia\Inertia;
 Route::get('/', function () {
     return Inertia::render('Index');
 });
+Route::get('/campaigns', function () {
+    return Inertia::render('OpenCampaigns');
+});
+Route::get('/campaign/unique', function () {
+    return Inertia::render('Campaign');
+});
+Route::get('/create/campaign', function () {
+    return Inertia::render('CreateCampaign');
+});
+
+Route::get('/requests', function () {
+    return Inertia::render('Requests');
+});

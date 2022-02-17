@@ -2168,7 +2168,7 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 ___CSS_LOADER_EXPORT___.i(_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_6_oneOf_1_use_1_node_modules_antd_dist_antd_css__WEBPACK_IMPORTED_MODULE_1__["default"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ":root {\n    --bg-primary: #ffa8a7;\n    --bg-primary-hover: #db8281;\n    --bg-secondary: #94d0cc;\n}\nbody {\n    background-color: #f6fafb;\n}\n.ant-layout {\n    background: #f6fafb;\n    overflow: hidden;\n}\n.ant-layout-header .ant-menu {\n    justify-content: end;\n    align-items: center;\n}\n.ant-menu-horizontal {\n    border-bottom: 0;\n}\n.ant-menu-horizontal .ant-menu-item:nth-last-child(2)::after {\n    border-bottom: 0;\n}\n.ant-menu-horizontal .ant-menu-item:nth-last-child(2):hover::after {\n    border-bottom: 0;\n}\n.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item:hover::after,\n.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu:hover::after,\n.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-active::after,\n.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-active::after,\n.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-open::after,\n.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-open::after,\n.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-selected::after,\n.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-selected::after {\n    border-bottom: 2px solid #ffa8a7;\n}\n.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item:hover,\n.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu:hover,\n.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-active,\n.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-active,\n.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-open,\n.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-open,\n.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-selected,\n.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-selected {\n    color: #ffa8a7;\n}\n.logo {\n    float: left;\n    width: 120px;\n    height: 31px;\n    margin: 16px 24px 16px 0;\n    background: rgba(128, 124, 124, 0.3);\n}\n.ant-layout-header {\n    background: transparent;\n    z-index: 10;\n}\n.ant-menu {\n    background: transparent;\n}\n.site-layout-content {\n    min-height: 280px;\n    padding: 24px;\n    background: #f6fafb;\n}\n.ant-row-rtl #components-layout-demo-top .logo {\n    float: right;\n    margin: 16px 0 16px 24px;\n}\n.ant-btn-primary {\n    border-color: var(--bg-primary);\n    background-color: var(--bg-primary);\n}\n.ant-btn-primary:hover,\n.ant-btn-primary:focus {\n    border-color: var(--bg-primary-hover);\n    background-color: var(--bg-primary-hover);\n}\n.hero {\n    position: relative;\n}\n.hero-content h1 {\n    font-size: 60px;\n    font-weight: 800;\n    color: #000000;\n    margin-bottom: 5px;\n}\n.hero-content .sml {\n    color: #ffa8a7;\n}\n.sh1 {\n    width: 420px;\n    height: 1000px;\n    background: #94d0cc;\n    border-radius: 246.122px;\n    transform: matrix(0.62, 0.8, -0.76, 0.63, 0, 0);\n    position: absolute;\n    right: -80px;\n    top: -495px;\n    z-index: 1;\n}\n.sh2 {\n    width: 420px;\n    height: 1000px;\n    background: #ffa8a7;\n    border-radius: 246.122px;\n    transform: matrix(0.62, 0.8, -0.76, 0.63, 0, 0);\n    position: absolute;\n    right: -320px;\n    top: -600px;\n}\n.section {\n    padding-top: 100px;\n}\n.abtfoundation {\n    position: relative;\n}\n.abtf1 {\n    width: 420px;\n    height: 1000px;\n    position: absolute;\n    background: #94d0cc;\n    /* background-image: url(\"/images/abtimg.png\"), #94d0cc; */\n    /* background-size: cover; */\n    /* background-position: center; */\n    border: 3px solid rgba(62, 99, 96, 0.56);\n    box-sizing: border-box;\n    border-radius: 246.122px;\n    transform: matrix(0.62, 0.8, -0.76, 0.63, 0, 0);\n    left: -350px;\n    top: -50px;\n    z-index: 1;\n}\n.abtf2 {\n    width: 420px;\n    height: 1000px;\n    position: absolute;\n    background-color: #ffa8a7;\n    box-sizing: border-box;\n    border-radius: 246.122px;\n    transform: matrix(0.62, 0.8, -0.76, 0.63, 0, 0);\n    left: -400px;\n}\n.stsSecCnt {\n    background: #fff;\n    z-index: 10;\n    position: relative;\n    margin-top: 5rem;\n    padding: 2rem;\n}\n.stscnt {\n    display: flex;\n    border: 1px solid rgba(255, 168, 167, 0.22);\n    padding: 1.5rem;\n    position: relative;\n    align-items: center;\n}\n.stsimg {\n    width: 60px;\n    height: 60px;\n    background: #ffffff;\n    border: 1px solid #ffecec;\n    border-radius: 50%;\n    display: flex;\n    position: absolute;\n    left: -30px;\n    align-items: center;\n    justify-content: center;\n}\n.stsimg img {\n    width: 40px;\n    height: 40px;\n}\n.stscntnt {\n    margin-left: 1rem;\n}\n.stscntnt h1 {\n    font-size: 20px;\n    font-weight: 700;\n}\n.glcrdCnt .content,\n.glcrCntFt {\n    background: #ffffff;\n    padding: 1rem;\n    transition: 500ms ease-in-out;\n}\n.glcrdCnt:hover {\n    box-shadow: 0px 5px 5px rgba(26, 17, 13, 0.05);\n    transition: 500ms ease-in;\n}\n.glcrdCnt .content h1 {\n    font-size: 20px;\n}\n.glcnt div {\n    padding: 0 10px;\n}\n.glcnt span {\n    text-transform: uppercase;\n    font-size: 12px;\n    font-weight: 500;\n    color: rgb(155, 170, 184);\n}\n.ant-progress-text {\n    margin-left: 2px;\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ":root {\n    --bg-primary: #ffa8a7;\n    --bg-primary-hover: #db8281;\n    --bg-secondary: #94d0cc;\n}\nbody {\n    background-color: #f6fafb;\n}\na {\n    color: #646b70;\n}\na:hover {\n    color: #7ea3a0;\n}\n.ant-layout {\n    background: #f6fafb;\n    overflow: hidden;\n}\n.ant-layout-header .ant-menu {\n    justify-content: end;\n    align-items: center;\n}\n.ant-menu-horizontal {\n    border-bottom: 0;\n}\n.ant-menu-horizontal .ant-menu-item:nth-last-child(2)::after {\n    border-bottom: 0 !important;\n}\n.ant-menu-horizontal .ant-menu-item:nth-last-child(2):hover::after {\n    border-bottom: 0 !important;\n}\n.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item:hover::after,\n.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu:hover::after,\n.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-active::after,\n.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-active::after,\n.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-open::after,\n.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-open::after,\n.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-selected::after,\n.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-selected::after {\n    border-bottom: 2px solid #ffa8a7;\n}\n.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item:hover,\n.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu:hover,\n.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-active,\n.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-active,\n.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-open,\n.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-open,\n.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-selected,\n.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-selected {\n    color: #ffa8a7;\n}\n.ant-menu-horizontal > .ant-menu-item a:hover {\n    color: var(--bg-primary);\n}\n.ant-menu-horizontal > .ant-menu-item-selected a {\n    color: var(--bg-primary);\n}\n.logo {\n    float: left;\n    width: 120px;\n    height: 31px;\n    margin: 16px 24px 16px 0;\n    background: rgba(128, 124, 124, 0.3);\n}\n.ant-layout-header {\n    background: transparent;\n    z-index: 10;\n}\n.ant-menu {\n    background: transparent;\n}\n.site-layout-content {\n    min-height: 280px;\n    /* padding: 24px; */\n    background: #f6fafb;\n}\n.ant-row-rtl #components-layout-demo-top .logo {\n    float: right;\n    margin: 16px 0 16px 24px;\n}\n.ant-btn-primary {\n    border-color: var(--bg-primary);\n    background-color: var(--bg-primary);\n}\n.ant-btn-primary:hover,\n.ant-btn-primary:focus {\n    border-color: var(--bg-primary-hover);\n    background-color: var(--bg-primary-hover);\n}\n.hero {\n    position: relative;\n}\n.hero-content h1 {\n    font-size: 60px;\n    font-weight: 800;\n    color: #000000;\n    margin-bottom: 5px;\n}\n.hero-content .sml {\n    color: #ffa8a7;\n}\n.sh1 {\n    width: 420px;\n    height: 1000px;\n    background: #94d0cc;\n    border-radius: 246.122px;\n    transform: matrix(0.62, 0.8, -0.76, 0.63, 0, 0);\n    position: absolute;\n    right: -80px;\n    top: -495px;\n    z-index: 1;\n}\n.sh2 {\n    width: 420px;\n    height: 1000px;\n    background: #ffa8a7;\n    border-radius: 246.122px;\n    transform: matrix(0.62, 0.8, -0.76, 0.63, 0, 0);\n    position: absolute;\n    right: -320px;\n    top: -600px;\n}\n.section {\n    padding-top: 100px;\n}\n.abtfoundation {\n    position: relative;\n}\n.abtf1 {\n    width: 420px;\n    height: 1000px;\n    position: absolute;\n    background: #94d0cc;\n    /* background-image: url(\"/images/abtimg.png\"), #94d0cc; */\n    /* background-size: cover; */\n    /* background-position: center; */\n    border: 3px solid rgba(62, 99, 96, 0.56);\n    box-sizing: border-box;\n    border-radius: 246.122px;\n    transform: matrix(0.62, 0.8, -0.76, 0.63, 0, 0);\n    left: -350px;\n    top: -50px;\n    z-index: 1;\n}\n.abtf2 {\n    width: 420px;\n    height: 1000px;\n    position: absolute;\n    background-color: #ffa8a7;\n    box-sizing: border-box;\n    border-radius: 246.122px;\n    transform: matrix(0.62, 0.8, -0.76, 0.63, 0, 0);\n    left: -400px;\n}\n.stsSecCnt {\n    background: #fff;\n    z-index: 10;\n    position: relative;\n    margin-top: 5rem;\n    padding: 2rem;\n}\n.stscnt {\n    display: flex;\n    border: 1px solid rgba(255, 168, 167, 0.22);\n    padding: 1.5rem;\n    position: relative;\n    align-items: center;\n}\n.stsimg {\n    width: 60px;\n    height: 60px;\n    background: #ffffff;\n    border: 1px solid #ffecec;\n    border-radius: 50%;\n    display: flex;\n    position: absolute;\n    left: -30px;\n    align-items: center;\n    justify-content: center;\n}\n.stsimg img {\n    width: 40px;\n    height: 40px;\n}\n.stscntnt {\n    margin-left: 1rem;\n}\n.stscntnt h1 {\n    font-size: 20px;\n    font-weight: 700;\n}\n.glcrdCnt .content,\n.glcrCntFt {\n    background: #ffffff;\n    padding: 1rem;\n    transition: 250ms ease-in-out;\n}\n.glcrdCnt:hover {\n    box-shadow: 0px 5px 5px rgba(26, 17, 13, 0.05);\n    transition: 250ms ease-in;\n}\n.glcrdCnt .content h1 {\n    font-size: 20px;\n}\n.glcnt div {\n    padding: 0 10px;\n}\n.glcnt span {\n    text-transform: uppercase;\n    font-size: 12px;\n    font-weight: 500;\n    color: rgb(155, 170, 184);\n}\n.ant-progress-text {\n    margin-left: 2px;\n}\n.cmpImgHolder {\n    width: 100%;\n    height: 400px;\n}\n.cmpImgHolder .ant-image {\n    width: 100%;\n    height: 100%;\n}\n.cmpImgHolder img {\n    -o-object-fit: cover;\n       object-fit: cover;\n    height: 100%;\n    width: 100%;\n}\n.cmpDntCnt {\n    background: #ffffff;\n    border-radius: 15px;\n    padding: 1rem;\n}\nhr:not([size]) {\n    height: 0.5px;\n}\n.ant-table-thead > tr > th {\n    background: #d4d8d9;\n}\n.frmCnt {\n    background-color: #ffffff;\n    border-radius: 15px;\n    padding: 2rem;\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -37206,13 +37206,45 @@ module.exports = function (list, options) {
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var map = {
-	"./Index": [
-		"./resources/js/Pages/Index.js",
-		"resources_js_Pages_Index_js"
+	"./Campaign": [
+		"./resources/js/Pages/Campaign.jsx",
+		"resources_js_Pages_Campaign_jsx"
 	],
-	"./Index.js": [
-		"./resources/js/Pages/Index.js",
-		"resources_js_Pages_Index_js"
+	"./Campaign.jsx": [
+		"./resources/js/Pages/Campaign.jsx",
+		"resources_js_Pages_Campaign_jsx"
+	],
+	"./CreateCampaign": [
+		"./resources/js/Pages/CreateCampaign.jsx",
+		"resources_js_Pages_CreateCampaign_jsx"
+	],
+	"./CreateCampaign.jsx": [
+		"./resources/js/Pages/CreateCampaign.jsx",
+		"resources_js_Pages_CreateCampaign_jsx"
+	],
+	"./Index": [
+		"./resources/js/Pages/Index.jsx",
+		"resources_js_Pages_Index_jsx"
+	],
+	"./Index.jsx": [
+		"./resources/js/Pages/Index.jsx",
+		"resources_js_Pages_Index_jsx"
+	],
+	"./OpenCampaigns": [
+		"./resources/js/Pages/OpenCampaigns.jsx",
+		"resources_js_Pages_OpenCampaigns_jsx"
+	],
+	"./OpenCampaigns.jsx": [
+		"./resources/js/Pages/OpenCampaigns.jsx",
+		"resources_js_Pages_OpenCampaigns_jsx"
+	],
+	"./Requests": [
+		"./resources/js/Pages/Requests.jsx",
+		"resources_js_Pages_Requests_jsx"
+	],
+	"./Requests.jsx": [
+		"./resources/js/Pages/Requests.jsx",
+		"resources_js_Pages_Requests_jsx"
 	]
 };
 function webpackAsyncContext(req) {
@@ -37353,7 +37385,7 @@ module.exports = JSON.parse('{"name":"axios","version":"0.21.4","description":"P
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = (chunkId) => {
 /******/ 			// return url for filenames based on template
-/******/ 			return "js/" + chunkId + "." + "824ffaf431877712" + ".js";
+/******/ 			return "js/" + chunkId + "." + {"resources_js_Pages_Campaign_jsx":"f325de983ad7dc10","resources_js_Pages_CreateCampaign_jsx":"6de611a2eaf9e69f","resources_js_Pages_Index_jsx":"a43687e4621b66b9","resources_js_Pages_OpenCampaigns_jsx":"32b2641ffe3cdfbe","resources_js_Pages_Requests_jsx":"12b6ef28cf6256be"}[chunkId] + ".js";
 /******/ 		};
 /******/ 	})();
 /******/ 	

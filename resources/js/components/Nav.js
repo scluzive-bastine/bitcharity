@@ -5,6 +5,8 @@ import {
     AppstoreOutlined,
     SettingOutlined,
 } from "@ant-design/icons";
+import { MdOutlineCampaign } from "react-icons/md";
+import { Link } from "@inertiajs/inertia-react";
 
 const Nav = () => {
     const [active, setActive] = useState("mail");
@@ -21,8 +23,11 @@ const Nav = () => {
                 mode="horizontal"
                 className="rightMenu"
             >
-                <Menu.Item key="mail" icon={<MailOutlined />}>
-                    Navigation One
+                <Menu.Item
+                    key="campaigns"
+                    icon={<MdOutlineCampaign style={{ fontSize: "20px" }} />}
+                >
+                    <Link href="/campaigns"> Open Campaigns</Link>
                 </Menu.Item>
                 <Menu.Item key="howItWorks">How it works</Menu.Item>
                 <Menu.Item key="connectWallet">

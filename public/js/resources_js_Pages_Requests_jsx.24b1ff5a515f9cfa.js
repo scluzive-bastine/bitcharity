@@ -1,0 +1,13 @@
+(self["webpackChunk"] = self["webpackChunk"] || []).push([["resources_js_Pages_Requests_jsx"],{
+
+/***/ "./resources/js/Pages/Requests.jsx":
+/*!*****************************************!*\
+  !*** ./resources/js/Pages/Requests.jsx ***!
+  \*****************************************/
+/***/ (() => {
+
+throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: /Applications/MAMP/htdocs/bitcharity/resources/js/Pages/Requests.jsx: Unexpected token, expected \",\" (56:28)\n\n\u001b[0m \u001b[90m 54 |\u001b[39m \u001b[36mconst\u001b[39m \u001b[33mRequests\u001b[39m \u001b[33m=\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m 55 |\u001b[39m     \u001b[36mconst\u001b[39m [modalState\u001b[33m,\u001b[39m setModalState] \u001b[33m=\u001b[39m useState(\u001b[36mfalse\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 56 |\u001b[39m     \u001b[36mconst\u001b[39m onFinish \u001b[33m=\u001b[39m (values\u001b[33m:\u001b[39m any) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m                             \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 57 |\u001b[39m         console\u001b[33m.\u001b[39mlog(\u001b[32m\"Received values of form: \"\u001b[39m\u001b[33m,\u001b[39m values)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 58 |\u001b[39m     }\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 59 |\u001b[39m     \u001b[36mreturn\u001b[39m (\u001b[0m\n    at Object._raise (/Applications/MAMP/htdocs/bitcharity/node_modules/@babel/parser/lib/index.js:476:17)\n    at Object.raiseWithData (/Applications/MAMP/htdocs/bitcharity/node_modules/@babel/parser/lib/index.js:469:17)\n    at Object.raise (/Applications/MAMP/htdocs/bitcharity/node_modules/@babel/parser/lib/index.js:430:17)\n    at Object.unexpected (/Applications/MAMP/htdocs/bitcharity/node_modules/@babel/parser/lib/index.js:3789:16)\n    at Object.expect (/Applications/MAMP/htdocs/bitcharity/node_modules/@babel/parser/lib/index.js:3773:28)\n    at Object.parseParenAndDistinguishExpression (/Applications/MAMP/htdocs/bitcharity/node_modules/@babel/parser/lib/index.js:12883:14)\n    at Object.parseExprAtom (/Applications/MAMP/htdocs/bitcharity/node_modules/@babel/parser/lib/index.js:12476:23)\n    at Object.parseExprAtom (/Applications/MAMP/htdocs/bitcharity/node_modules/@babel/parser/lib/index.js:7812:20)\n    at Object.parseExprSubscripts (/Applications/MAMP/htdocs/bitcharity/node_modules/@babel/parser/lib/index.js:12149:23)\n    at Object.parseUpdate (/Applications/MAMP/htdocs/bitcharity/node_modules/@babel/parser/lib/index.js:12129:21)");
+
+/***/ })
+
+}]);
