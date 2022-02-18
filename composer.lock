@@ -4,8 +4,52 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "840f3efe26b7bc920b8818ca8f9bdd29",
+    "content-hash": "c654b835ceb69da5d8925cab8f679c57",
     "packages": [
+        {
+            "name": "amir/laravel-permission",
+            "version": "v1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/amiryousefi/laravel-permission.git",
+                "reference": "e4cdc579cef3fd886910c3f1fa9a7271daa264cf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/amiryousefi/laravel-permission/zipball/e4cdc579cef3fd886910c3f1fa9a7271daa264cf",
+                "reference": "e4cdc579cef3fd886910c3f1fa9a7271daa264cf",
+                "shasum": ""
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Amir\\Permission\\LaravelPermissionServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Amir\\Permission\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Amir Yousefi",
+                    "email": "amiryousefi.it@gmail.com"
+                }
+            ],
+            "description": "an easy and flexible way for permissions management",
+            "support": {
+                "issues": "https://github.com/amiryousefi/laravel-permission/issues",
+                "source": "https://github.com/amiryousefi/laravel-permission/tree/v1.3"
+            },
+            "time": "2021-11-29T08:57:06+00:00"
+        },
         {
             "name": "asm89/stack-cors",
             "version": "v2.1.1",
