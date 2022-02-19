@@ -3,6 +3,8 @@ namespace App\Services;
 use DB;
 use App\Models\User;
 use App\Models\Company;
+use App\Services\MailService;
+use App\Models\OneTimeCode;
 use Illuminate\Support\Str;
 use Illuminate\Http\Request;
 use Amir\Permission\Models\Role;
@@ -17,16 +19,21 @@ class Authentication
         $role_id = Role::where('name', 'User')->pluck('id')->first();
         $request['password']=Hash::make($request['password']);
         $request['remember_token'] = Str::random(10);
-        $user = User::create($request->toArray());
-        $user->role_id = $role_id;
-        $token = $user->createToken('User Registration Authentication')->accessToken;
-        $response = [
-                        'token' => $token,
-                        'user' => $user,
-                        'message'=> $user->username .' has been authroized',
-                        'status' => '200'
-                    ];
-        return $response;
+        return DB::transaction(function () use ($request, $role_id) {
+            $user = User::create($request->toArray());
+            $c = OneTimeCode::generate('EMAIL VERIFICATION',1, $user->id, 6);
+            $mail = MailService::mailOneTimeCode($c->code, $user->email, 1);
+            $user->role_id = $role_id;
+            $token = $user->createToken('User Registration Authentication')->accessToken;
+            $response = [
+                            'token' => $token,
+                            'user' => $user,
+                            'message'=> $user->username .' has been authroized',
+                            'status' => '200',
+                            'mail'=> $mail
+                        ];
+            return $response;
+        });
     }
     // Accepts a Company registration type of request
     public static function registerAsCompany(CompanyRegistrationRequest $request){
@@ -42,12 +49,15 @@ class Authentication
             $response = Authentication::registerAsUser($_userRequest);
             $user = $response['user'];
             $company = CompanyService::register($request, $user->id);
+            $c = OneTimeCode::generate('EMAIL VERIFICATION',1, $user->id, 6);
+            $mail = MailService::mailOneTimeCode($c->code, $user->email, 1);
             $response = [
                             'token' => $response['token'],
                             'user' => $user,
                             'company' => $company,
                             'message'=> $company->name . ' was successfully registered.'. $user->username .' has been authroized',
-                            'status' => '200'
+                            'status' => '200',
+                            'mail' => $mail
                         ];
             return $response;
         });
