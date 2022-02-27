@@ -37,8 +37,7 @@ class OneTimeCode extends Model
         $onetime = OneTimeCode::where('type', $type)
                                 ->where('user_id', $user_id)
                                 ->where('status', 1)
-                                ->where('active', 1)
-                                ->get()->first();
+                                ->where('active', 1) 
         if($onetime){
             $period = DateTime::differenceInHours(
                         Carbon\Carbon::now()->toDateTimeString(),
