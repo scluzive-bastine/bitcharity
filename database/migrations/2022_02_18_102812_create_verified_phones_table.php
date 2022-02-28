@@ -15,7 +15,7 @@ class CreateVerifiedPhonesTable extends Migration
     {
         Schema::create('verified_phones', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('info', 100);
+            $table->string('info', 100)->unique(true);
             $table->enum('status', [0, 1])->default(0);
             $table->enum('active', [0, 1])->default(1);
             $table->bigInteger('user_id')->unsigned();

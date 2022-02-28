@@ -6,14 +6,15 @@ use App\Mail\OneTimeCodeMailable;
 class MailService
 {
     public static function mailOneTimeCode($code, $email, $expiry){
-        $res= '';
+        $res= false;
         try {
             Mail::to($email)
             ->send(new OneTimeCodeMailable($code, $expiry));
-            $res = 'Mail Sent';
+            $res = true;
         } catch (\Throwable $th) {
             // Queue to be sent late..
-            $res = 'Issues in sending email.'.$th->getMessage();
+            // $log = 'Issues in sending email.'.$th->getMessage();
+            $res = false;
         }
         return $res;
     }
